@@ -1,3 +1,5 @@
+import GoogleMap from "@/components/google-map"
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-10 pb-6">
@@ -67,17 +69,8 @@ export default function Footer() {
               地址: 九龍油麻地渡船街28號寶時商業中心1810室
             </p>
           </div>
-          <div className="h-[200px] md:h-[250px] rounded-lg overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.1748022751377!2d114.16758807596853!3d22.312456979666394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ed0579f751%3A0x8cafaad3463fa554!2z5a6c5qiC5Z2KIEdBTEEgUExBQ0U!5e0!3m2!1sen!2shk!4v1713368400000!5m2!1sen!2shk"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="泰興財務地圖位置"
-            ></iframe>
+          <div className="h-[200px] md:h-[250px]">
+            <GoogleMap />
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">

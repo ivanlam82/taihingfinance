@@ -114,7 +114,7 @@ export default function ApplicationFormModal({
       const encodedMessage = encodeURIComponent(message)
 
       // WhatsApp API URL with phone number and message
-      const whatsappUrl = `https://wa.me/85295211200?text=${encodedMessage}`
+      const whatsappUrl = `https://wa.me/85297376112?text=${encodedMessage}`
 
       // Show success message
       toast({

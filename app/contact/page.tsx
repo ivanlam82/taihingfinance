@@ -92,7 +92,7 @@ export default function ContactPage() {
       const encodedMessage = encodeURIComponent(message)
 
       // WhatsApp API URL with phone number and message
-      const whatsappUrl = `https://wa.me/85297376112?text=${encodedMessage}`
+      const whatsappUrl = `https://wa.me/85297376009?text=${encodedMessage}`
 
       // Show success message
       toast({
@@ -164,7 +164,7 @@ export default function ContactPage() {
                     </svg>
                     <div>
                       <h3 className="font-semibold text-gray-800">24小時查詢熱線</h3>
-                      <p className="text-gray-700">+852 97376112</p>
+                      <p className="text-gray-700">+852 97376009</p>
                     </div>
                   </div>
 

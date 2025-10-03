@@ -11,7 +11,7 @@ const notoSansTC = Noto_Sans_TC({
 export const metadata = {
   title: "泰興財務 - 專業貸款服務",
   description: "提供個人貸款、物業貸款及企業融資等專業服務",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

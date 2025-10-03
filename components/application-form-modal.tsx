@@ -114,7 +114,7 @@ export default function ApplicationFormModal({
       const encodedMessage = encodeURIComponent(message)
 
       // WhatsApp API URL with phone number and message
-      const whatsappUrl = `https://wa.me/85297376112?text=${encodedMessage}`
+      const whatsappUrl = `https://wa.me/85297376009?text=${encodedMessage}`
 
       // Show success message
       toast({
@@ -222,7 +222,7 @@ export default function ApplicationFormModal({
           </div>
 
           <div className="pt-2 flex justify-end space-x-2">
-            <Button type="button" variant="outline" onClick={onClose} className="text-xs h-7 px-2">
+            <Button type="button" variant="outline" onClick={onClose} className="text-xs h-7 px-2 bg-transparent">
               取消
             </Button>
             <Button type="submit" className="bg-[#A67C3F] hover:bg-[#8A6835] text-white text-xs h-7 px-2">
